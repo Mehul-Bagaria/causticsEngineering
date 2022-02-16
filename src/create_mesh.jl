@@ -926,7 +926,7 @@ function engineer_caustics(img)
     focalLength = 0.2 # meters
     h, metersPerPixel = findSurface(meshy, img3, focalLength, artifactSize)
 
-    setHeights!(meshy, h, 1.0, 10)
+    setHeights!(meshy, h, 5.0, 10)
 
     solidMesh = solidify(meshy)
     saveObj!(
