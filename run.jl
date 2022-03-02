@@ -1,7 +1,7 @@
 using Pkg
-Pkg.add("Images");
-Pkg.add("Plots");
-Pkg.instantiate()
+# Pkg.add("Images");
+# Pkg.add("Plots");
+# Pkg.instantiate()
 Pkg.activate(".")
 
 using Images, CausticsEngineering
