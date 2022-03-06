@@ -27,3 +27,6 @@ docs/site/
 Manifest.toml
 .vscode
 *.blend1
+*.xdmf
+*.h5
+.ipynb_checkpoints/
